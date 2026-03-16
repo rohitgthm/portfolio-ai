@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MdOutlineFileDownload } from "react-icons/md";
-import resume from "../resume/Frontend_dev_Rohit_kumar.pdf";
+import resume from "../resume/FrontendDev_Rohit.pdf";
 
 const Hero = () => {
   return (
