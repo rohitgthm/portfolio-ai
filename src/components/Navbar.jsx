@@ -23,30 +23,38 @@ const Navbar = () => {
       </a>
 
       <ul className="hidden md:flex gap-10">
-        <a
-          href="#home"
-          className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
-        >
-          <li>Home</li>
-        </a>
-        <a
-          href="#tech"
-          className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
-        >
-          <li>Tech</li>
-        </a>
-        <a
-          href="#projects"
-          className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
-        >
-          <li>Projects</li>
-        </a>
-        <a
-          href="#contact"
-          className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
-        >
-          <li>Contact</li>
-        </a>
+        <li>
+          <a
+            href="#home"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="#tech"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+          >
+            Tech
+          </a>
+        </li>
+        <li>
+          <a
+            href="#projects"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+          >
+            Projects
+          </a>
+        </li>
+        <li>
+          <a
+            href="#contact"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+          >
+            Contact
+          </a>
+        </li>
       </ul>
 
       <ul className="hidden md:flex gap-5">
@@ -86,30 +94,41 @@ const Navbar = () => {
             gap-10 border-l border-gray-800 bg-black/90 p-12 ${isOpen ? "block" : "hidden"}`}
         >
           <ul className="flex flex-col gap-8">
-            <a
-              href="#home"
-              className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
-            >
-              <li>Home</li>
-            </a>
-            <a
-              href="#tech"
-              className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
-            >
-              <li>Tech</li>
-            </a>
-            <a
-              href="#projects"
-              className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
-            >
-              <li>Projects</li>
-            </a>
-            <a
-              href="#contact"
-              className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
-            >
-              <li>Contact</li>
-            </a>
+            <li>
+              <a
+                href="#home"
+                className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+              >
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#tech"
+                className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+              >
+                Tech
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#projects"
+                className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+              >
+                Projects
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#contact"
+                className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+              >
+                Contact
+              </a>
+            </li>
           </ul>
           <ul className="flex flex-wrap gap-5">
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-400 hover:opacity-100">

@@ -17,7 +17,7 @@ const Hero = () => {
           {/* person image here  */}
           <img
             src="rohit.webp"
-            loading="lazy"
+            fetchPriority="high"
             alt="person profile picture"
             aria-label="profile picture of the portfolio's owner"
             className="w-75 cursor-pointer rounded-full shadow-xl  transition-all duration-300 hover:-translate-y-2 
@@ -34,9 +34,9 @@ const Hero = () => {
             Rohit Kumar
           </h1>
           <div className="flex gap-5 justify-center items-center">
-            <h3 className="bg-linear-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl md:text-3xl">
+            <h2 className="bg-linear-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl md:text-3xl">
               Frontend developer
-            </h3>
+            </h2>
 
             {/* a tag for downloading the resume */}
             <a

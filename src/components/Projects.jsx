@@ -63,7 +63,7 @@ const Projects = () => {
         <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
           <img
             src={project.image}
-            loading="lazy"
+            fetchPriority="high"
             alt="project images"
             aria-label={project.ariaLabel}
             className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-75"
