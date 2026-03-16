@@ -16,8 +16,10 @@ const Hero = () => {
         >
           {/* person image here  */}
           <img
-            src="rohit.jpeg"
+            src="rohit.webp"
+            loading="lazy"
             alt="person profile picture"
+            aria-label="profile picture of the portfolio's owner"
             className="w-75 cursor-pointer rounded-full shadow-xl  transition-all duration-300 hover:-translate-y-2 
             hover:scale-100 hover:shadow-sky-100/20 md:w-87.5"
           />
